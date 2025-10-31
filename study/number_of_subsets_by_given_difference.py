@@ -40,7 +40,8 @@ print(num_of_subset_by_given_diff(array, target))
 # target sum 문제는 -1/1 knapsack 문제
 # number of subsets by given difference도 -1/1 knapsack 문제이고
 # target을 difference로 잡으면 되는 이유도 -1/1 knapsack 문제이기 때문에 diff + 원소를 할 경우 동일한 원소 혹은 0이 존재하지 않으면 diff를 만족할 수 없기 때문이다.
-# 그럼 target 을 만족하는 부분 집합 중에 동일한 원소가 2개 이상 있거나, 0이 존재하면 중복 조합을 계산한 후 곱해줘야  한다.
+# 그러나 target 을 만족하는 부분 집합 중에 동일한 원소가 2개 이상 있거나, 0이 존재하면 중복 조합을 계산한 후 곱해줘야 한다.
+# 하지만 그거까지는 구현 안할꺼죠? ㅋㅋ
 
 
 
